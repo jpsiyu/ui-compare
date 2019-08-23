@@ -14,34 +14,28 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Home',
       component: Index
     },
     {
       path: '/layui',
-      name: 'layui',
       component: Layui,
       children: [
         {
           path: '/',
-          name: 'layui widget',
           component: LayuiWidget
         },
         {
           path: 'form',
-          name: 'layui form',
           component: LayuiForm
         }
       ]
     },
     {
       path: '/seamless',
-      name: 'seamless',
       component: Seamless
     },
     {
       path: '/infinite',
-      name: 'infinite',
       component: Infinite
     }
   ]
