@@ -6,13 +6,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-import VueSeamless from 'vue-seamless-scroll'
-import infiniteScroll from 'vue-infinite-scroll'
-Vue.use(VueSeamless)
-Vue.use(infiniteScroll)
-
-import Element from '@/assets/plugins/element'
-Vue.use(Element)
+// add plugins
+import all from '@/assets/plugins/all'
+Vue.use(all)
 
 /* eslint-disable no-new */
 new Vue({
