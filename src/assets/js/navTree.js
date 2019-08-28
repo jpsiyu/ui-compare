@@ -11,6 +11,7 @@ const tree = [
     children: [
       { label: '无缝滑动', link: '/seamless' },
       { label: '无限列表', link: '/infinite' },
+      { label: 'Xlsx', link: '/xlsx' },
     ]
   }
 ]

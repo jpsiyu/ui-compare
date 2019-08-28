@@ -6,6 +6,7 @@ import LayuiWidget from '@/pages/layui/widget'
 import LayuiForm from '@/pages/layui/form'
 import Seamless from '@/pages/seamless/index'
 import Infinite from '@/pages/infinite/index'
+import Xlsx from '@/pages/xlsx/index'
 
 Vue.use(Router)
 
@@ -37,6 +38,10 @@ export default new Router({
     {
       path: '/infinite',
       component: Infinite
+    },
+    {
+      path: '/xlsx',
+      component: Xlsx
     }
   ]
 })
