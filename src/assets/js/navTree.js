@@ -13,6 +13,10 @@ const tree = [
       { label: '无限列表', link: '/infinite' },
       { label: 'Xlsx', link: '/xlsx' },
     ]
+  },
+  {
+    label: 'iview',
+    link: '/iview'
   }
 ]
 

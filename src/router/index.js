@@ -7,6 +7,7 @@ import LayuiForm from '@/pages/layui/form'
 import Seamless from '@/pages/seamless/index'
 import Infinite from '@/pages/infinite/index'
 import Xlsx from '@/pages/xlsx/index'
+import IView from '@/pages/iview/index'
 
 Vue.use(Router)
 
@@ -42,6 +43,10 @@ export default new Router({
     {
       path: '/xlsx',
       component: Xlsx
+    },
+    {
+      path: '/iview',
+      component: IView
     }
   ]
 })
