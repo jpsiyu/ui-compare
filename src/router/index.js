@@ -8,6 +8,7 @@ import Seamless from '@/pages/seamless/index'
 import Infinite from '@/pages/infinite/index'
 import Xlsx from '@/pages/xlsx/index'
 import IView from '@/pages/iview/index'
+import Element from '@/pages/element/index'
 
 Vue.use(Router)
 
@@ -47,11 +48,15 @@ const router = new Router({
     {
       path: '/iview',
       component: IView
-    }
+    },
+    {
+      path: '/element',
+      component: Element
+    },
   ]
 })
 
-router.beforeEach((to, from ,next) => {
+router.beforeEach((to, from, next) => {
   console.log('check path', to.path)
   next()
 })

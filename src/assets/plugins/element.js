@@ -1,6 +1,6 @@
 import ElementUI from 'element-ui'
 import { Loading, MessageBox, Notification, Message } from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
+import '../theme-zeroborder/index.css'
 
 export default {
   install: function (Vue, options) {

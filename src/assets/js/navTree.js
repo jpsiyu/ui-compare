@@ -17,6 +17,10 @@ const tree = [
   {
     label: 'iview',
     link: '/iview'
+  },
+  {
+    label: 'element',
+    link: '/element'
   }
 ]
 
