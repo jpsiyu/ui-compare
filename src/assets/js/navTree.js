@@ -23,7 +23,8 @@ const tree = [
   {
     label: 'element',
     children: [
-      { label: '通用', link: '/element' }
+      { label: '通用', link: '/element' },
+      { label: '上传', link: '/element/upload' }
     ]
   }
 ]

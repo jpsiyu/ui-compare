@@ -5,7 +5,8 @@
       type="datetimerange"
       placeholder="Select date and time"
       style="width: 300px"
-    ></DatePicker>
+    >
+    </DatePicker>
   </div>
 </template>
 

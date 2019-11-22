@@ -9,6 +9,7 @@ import Infinite from '@/pages/infinite/index'
 import Xlsx from '@/pages/xlsx/index'
 import DatePicker from '@/pages/iview/datepicker'
 import Element from '@/pages/element/index'
+import Upload from '@/pages/element/upload'
 
 Vue.use(Router)
 
@@ -52,6 +53,10 @@ const router = new Router({
     {
       path: '/element',
       component: Element
+    },
+    {
+      path: '/element/upload',
+      component: Upload
     },
   ]
 })
