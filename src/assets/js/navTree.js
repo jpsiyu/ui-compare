@@ -16,11 +16,15 @@ const tree = [
   },
   {
     label: 'iview',
-    link: '/iview'
+    children: [
+      { label: '时间选择器', link: '/iview/datepicker' }
+    ]
   },
   {
     label: 'element',
-    link: '/element'
+    children: [
+      { label: '通用', link: '/element' }
+    ]
   }
 ]
 

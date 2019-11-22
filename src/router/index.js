@@ -7,7 +7,7 @@ import LayuiForm from '@/pages/layui/form'
 import Seamless from '@/pages/seamless/index'
 import Infinite from '@/pages/infinite/index'
 import Xlsx from '@/pages/xlsx/index'
-import IView from '@/pages/iview/index'
+import DatePicker from '@/pages/iview/datepicker'
 import Element from '@/pages/element/index'
 
 Vue.use(Router)
@@ -46,8 +46,8 @@ const router = new Router({
       component: Xlsx
     },
     {
-      path: '/iview',
-      component: IView
+      path: '/iview/datepicker',
+      component:DatePicker 
     },
     {
       path: '/element',
